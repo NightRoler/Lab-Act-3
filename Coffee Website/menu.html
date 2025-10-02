@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kaibigan Café — Menu</title>
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <a href="#">
+            <img
+              src="/assets/Home/kaibigan-cafe-logo.png"
+              alt="Kaibigan Cafe Logo"
+            />
+            <span>Kaibigan Café</span>
+          </a>
+        </div>
+
+        <!-- Hamburger Menu Toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="events.html">Events & Activities</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ========= MENU (TABLES) ========= -->
+      <h2 class="section">Menu</h2>
+      <section aria-label="Menu board" class="menu-board">
+        <!-- COFFEE -->
+        <table class="menutable" id="menu-coffee">
+          <caption>
+            COFFEE
+          </caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th>HOT</th>
+              <th>COLD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>KaibigEspresso</td>
+              <td class="price">₱129</td>
+              <td class="price">₱139</td>
+            </tr>
+            <tr>
+              <td>Iced Tropa Americano</td>
+              <td class="price">₱139</td>
+              <td class="price">₱149</td>
+            </tr>
+            <tr>
+              <td>Tropa Cappuccino</td>
+              <td class="price">₱139</td>
+              <td class="price">₱149</td>
+            </tr>
+            <tr>
+              <td>Latte Ba Magsimula Ulit?</td>
+              <td class="price">₱139</td>
+              <td class="price">₱149</td>
+            </tr>
+            <tr>
+              <td>Kaibigan Mocha Ba 'Ko?</td>
+              <td class="price">₱139</td>
+              <td class="price">₱149</td>
+            </tr>
+            <tr>
+              <td>Cool Off</td>
+              <td class="price">₱139</td>
+              <td class="price">₱149</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- TEAS & OTHER DRINKS -->
+        <table class="menutable" id="menu-tea">
+          <caption>
+            TEAS &amp; OTHER DRINKS
+          </caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th>PRICE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>O-Chai Tagal Din Kitang Minahal</td>
+              <td class="price">₱129</td>
+            </tr>
+            <tr>
+              <td>Matchaya Na Siya Sa Iba</td>
+              <td class="price">₱139</td>
+            </tr>
+            <tr>
+              <td>Mainit Pero Hindi Na Sweet</td>
+              <td class="price">₱139</td>
+            </tr>
+            <tr>
+              <td>Herbabalikan Mo Pa Ba?</td>
+              <td class="price">₱139</td>
+            </tr>
+            <tr>
+              <td>Lemon Ka Pa Bang Nararamdaman?</td>
+              <td class="price">₱139</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- PASTRIES & SNACKS -->
+        <table class="menutable" id="menu-pastry">
+          <caption>
+            PASTRIES &amp; SNACKS
+          </caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th>PRICE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Crush-sant</td>
+              <td class="price">₱99</td>
+            </tr>
+            <tr>
+              <td>Muffin Between Us</td>
+              <td class="price">₱99</td>
+            </tr>
+            <tr>
+              <td>The Missing Piece</td>
+              <td class="price">₱99</td>
+            </tr>
+            <tr>
+              <td>Brownies Na Miss Na Kita</td>
+              <td class="price">₱99</td>
+            </tr>
+            <tr>
+              <td>Blueberry Sawi</td>
+              <td class="price">₱109</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="notes">
+          <ul>
+            <li>Dairy-free and gluten-free options available.</li>
+            <li>Specialty drinks may have additional charges.</li>
+            <li>Catering available for groups of 10+.</li>
+            <li>Orders over $50 require a deposit.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ========= SLIDERS ========= -->
+
+      <h2 class="section">Try our best sellers!</h2>
+      <div class="rail">
+        <a class="arrow prev" href="#best-1" aria-label="Previous">‹</a>
+        <a class="arrow next" href="#best-3" aria-label="Next">›</a>
+
+        <div class="track" id="best">
+          <section id="best-1">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Kaibigan Macchiato.jpg"
+                  alt="Kaibigan Macchiato"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="pill">Hot / Iced</span>
+              </div>
+              <div class="info">
+                <div class="title">Kaibigan Macchiato</div>
+                <div class="desc">
+                  "Masarap sa una, mapait sa dulo. Parang kayo lang." Creamy caramel finish.
+                </div>
+                <div class="meta">
+                  <span class="price">₱149</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="best-2">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Tropa Cappuccino.jpg"
+                  alt="Tropa Cappuccino"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="pill">Hot</span>
+              </div>
+              <div class="info">
+                <div class="title">Tropa Cappuccino</div>
+                <div class="desc">
+                  "Magaan sa puso, mabigat sa crema." Classic and cozy.
+                </div>
+                <div class="meta">
+                  <span class="price">₱149</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="best-3">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Latte Na Ba Magsimula Ulit.jpeg"
+                  alt="Latte Na Ba Magsimula Ulit?"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="pill">Iced</span>
+              </div>
+              <div class="info">
+                <div class="title">Latte Na Ba Magsimula Ulit?</div>
+                <div class="desc">
+                  "Kung pwede na sana pwede pa." Vanilla latte with a gentle sweet cream float.
+                </div>
+                <div class="meta">
+                  <span class="price">₱149</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+
+      <h2 class="section">Coffee</h2>
+      <div class="rail">
+        <a class="arrow prev" href="#coffee-1" aria-label="Previous">‹</a>
+        <a class="arrow next" href="#coffee-6" aria-label="Next">›</a>
+
+        <div class="track" id="coffee">
+          <section id="coffee-1">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/KaibigEspresso.jpeg"
+                  alt="KaibigEspresso"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">KaibigEspresso</div>
+                <div class="desc">
+                  "Diretso, walang halong bola."
+                </div>
+                <div class="meta">
+                  <span class="price">₱129</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="coffee-2">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Iced Tropa Americano.webp"
+                  alt="Iced Tropa Americano"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Iced Tropa Americano</div>
+                <div class="desc">
+                  "Malamig, matapang, pero hanggang tropa lang."
+                </div>
+                <div class="meta">
+                  <span class="price">₱139</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="coffee-3">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Tropa Cappuccino.jpg"
+                  alt="Tropa Cappuccino"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Tropa Cappuccino</div>
+                <div class="desc">
+                  "Magaan sa puso, mabigat sa crema. Classic and cozy."
+                </div>
+                <div class="meta">
+                  <span class="price">₱149</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="coffee-4">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Latte Na Ba Magsimula Ulit.jpeg"
+                  alt="Latte Na Ba Magsimula Ulit?"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Latte Na Ba Magsimula Ulit?</div>
+                <div class="desc">
+                  "Kung pwede na sana pwede pa." Vanilla latte with a gentle sweet cream float.
+                </div>
+                <div class="meta">
+                  <span class="price">₱149</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="coffee-5">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Kaibigan Mocha Ba Ko.avif"
+                  alt="Kaibigan Mocha Ba 'Ko?"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Kaibigan Mocha Ba 'Ko?</div>
+                <div class="desc">
+                  "Sweet na may halong pait. Hanggang kaibigan na lang ba?"
+                </div>
+                <div class="meta">
+                  <span class="price">₱149</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="coffee-6">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Coffee/Kaibigan Macchiato.jpg"
+                  alt="Kaibigan Macchiato"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Kaibigan Macchiato</div>
+                <div class="desc">
+                  "Masarap sa una, mapait sa dulo. Parang kayo lang." Creamy caramel finish.
+                </div>
+                <div class="meta">
+                  <span class="price">₱149</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+
+      <h2 class="section" id="teas">Teas &amp; Other Drinks</h2>
+      <div class="rail">
+        <a class="arrow prev" href="#tea-1" aria-label="Previous">‹</a>
+        <a class="arrow next" href="#tea-6" aria-label="Next">›</a>
+
+        <div class="track" id="tea">
+          <section id="tea-1">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Teas and other drinks/O-Chai Tagal Din Kitang Minahal.png"
+                  alt="O-Chai Tagal Din Kitang Minahal"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">O-Chai Tagal Din Kitang Minahal</div>
+                <div class="desc">Spiced chai with silky milk foam.</div>
+                <div class="meta">
+                  <span class="price">₱129</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="tea-2">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Teas and other drinks/Matchaya Na Siya Sa Iba.jpg"
+                  alt="Matchaya Na Siya Sa Iba"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Matchaya Na Siya Sa Iba</div>
+                <div class="desc">Smooth matcha latte, lightly sweet.</div>
+                <div class="meta">
+                  <span class="price">₱139</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="tea-3">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Teas and other drinks/Mainit Pero Di Na Sweet.jpg"
+                  alt="Mainit Pero Hindi Na Sweet"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Mainit Pero Hindi Na Sweet</div>
+                <div class="desc">Hot chocolate goodness.</div>
+                <div class="meta">
+                  <span class="price">₱139</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="tea-4">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Teas and other drinks/Herbabalikan Mo Pa Ba.jpg"
+                  alt="Herbabalikan Mo Pa Ba?"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Herbabalikan Mo Pa Ba?</div>
+                <div class="desc">Minty herbal blend with honey.</div>
+                <div class="meta">
+                  <span class="price">₱139</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="tea-5">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Teas and other drinks/Lemon Ka Pa Bang Nararamdaman.webp"
+                  alt="Lemon Ka Pa Bang Nararamdaman?"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Lemon Ka Pa Bang Nararamdaman?</div>
+                <div class="desc">Black tea with lemon, no syrup.</div>
+                <div class="meta">
+                  <span class="price">₱139</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="tea-6">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Teas and other drinks/Cool Off.avif"
+                  alt="Cool Off"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Cool Off</div>
+                <div class="desc">Iced, crisp, instantly refreshing.</div>
+                <div class="meta">
+                  <span class="price">₱139</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+
+      <h2 class="section" id="pastries">Pastries &amp; Snacks</h2>
+      <div class="rail">
+        <a class="arrow prev" href="#pastry-1" aria-label="Previous">‹</a>
+        <a class="arrow next" href="#pastry-5" aria-label="Next">›</a>
+
+        <div class="track" id="pastry">
+          <section id="pastry-1">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Pastries/Crush-sant.webp"
+                  alt="Crush-sant"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Crush-sant</div>
+                <div class="desc">Flaky layers, buttery finish.</div>
+                <div class="meta">
+                  <span class="price">₱99</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="pastry-2">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Pastries/Muffin Between Us.avif"
+                  alt="Muffin Between Us"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Muffin Between Us</div>
+                <div class="desc">Chocolate muffin with chips.</div>
+                <div class="meta">
+                  <span class="price">₱99</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="pastry-3">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Pastries/The Missing Piece.webp"
+                  alt="The Missing Piece"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">The Missing Piece</div>
+                <div class="desc">Soft bread, sweet surprise.</div>
+                <div class="meta">
+                  <span class="price">₱99</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="pastry-4">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Pastries/Brownies Na Miss Na Kita.jpg"
+                  alt="Brownies Na Miss Na Kita"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Brownies Na Miss Na Kita</div>
+                <div class="desc">Fudgy, chocolatey, nostalgic.</div>
+                <div class="meta">
+                  <span class="price">₱99</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <section id="pastry-5">
+            <article class="card">
+              <div class="thumb">
+                <img
+                  src="/assets/Menu/Pastries/Blueberry Sawi.jpg"
+                  alt="Blueberry Sawi"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="info">
+                <div class="title">Blueberry Sawi</div>
+                <div class="desc">Tangy blueberry on soft bread.</div>
+                <div class="meta">
+                  <span class="price">₱109</span><a class="btn" href="#">Add</a>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="#">
+            <img
+              src="/assets/Home/kaibigan-cafe-logo.png"
+              alt="Kaibigan Cafe Logo"
+            />
+            <span>Kaibigan Café</span>
+          </a>
+        </div>
+
+        <div class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="events.html">Events & Activities</a>
+        </div>
+
+        <div>&copy; 2025 Kaibigan Café</div>
+      </div>
+    </footer>
+  </body>
+</html>
